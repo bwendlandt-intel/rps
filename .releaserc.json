@@ -16,8 +16,8 @@
     [
         "semantic-release-discord-bot",
         {
-            "message": "here is the new release of ${packageName} of Open AMT, omg, it's version ${branch}",
             "success": {
+              "message": "here is the new release of ${packageName} of Open AMT, omg, it's version ${branch}",
               "path": "./.chglog/CHANGELOG.tpl.md"
             }
         }
