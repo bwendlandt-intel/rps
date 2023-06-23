@@ -12,6 +12,15 @@
       }
     ],
     "@semantic-release/git",
-    "@semantic-release/github"
+    "@semantic-release/github",
+    [
+        "semantic-release-discord-bot",
+        {
+            "message": "here is the new release of ${packageName} of Open AMT, omg, it's version ${branch}",
+            "success": {
+              "path": "./.chglog/CHANGELOG.tpl.md"
+            }
+        }
+    ]
   ]
 }
